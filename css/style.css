@@ -1,0 +1,88 @@
+body {
+ 	background: linear-gradient(270deg, #FF6555, #DEDEDE);
+ 	font-family: 'Roboto', sans-serif;
+}
+
+label {
+	display: block;
+
+}
+
+button {
+	background: #FF5951;
+	margin: 10px 0 0 0;
+	border: 1px solid #FF5951;
+	border-radius: 5px;
+	color: white;
+	width: 100px;
+	height: 30px;
+
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 300;
+	text-align: center;
+	color: #000000;
+	margin: 0;
+}
+
+input[type=checkbox] {
+	border: 1px solid black;
+	border-radius: 2px; 
+
+}
+
+.checkbox span {
+	border: 1px solid green;
+	border-radius: 2px; 
+
+}
+
+.checkbox input:checked + span {
+    text-decoration: line-through;
+}
+
+#container {
+	width: 50%;
+	margin: 0 auto; 
+	padding: 0 0 50px 0;
+	background: white;
+	border: 1px outset gray;
+	border-radius: 5px;
+}
+
+#form {
+ width: 100%;
+ text-align: center; 
+}
+
+#input {
+	text-align: center; 
+	width: 95%;
+	height: 50px;
+	bottom-border: 2px solid gray;
+	color: #FF5951;
+	padding: 0 0 0 0;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FF5951;
+  font-size: 15px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #FF5951;
+   font-size: 15px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #FF5951;
+   font-size: 15px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #FF5951;
+   font-size: 15px;
+}
+
+
+
